@@ -6,6 +6,22 @@ console.log("\t\t-------------------------------");
 var uname=readlineSync.question("May I know your name:");
 console.log("Welcome "+uname);
 
+var score=0;
+function play(question,answer)
+{
+  var userresult=readlineSync.question(question);
+  if(userresult==answer)
+  {
+    score=score+1;
+    console.log("You are Correct \nScore is " +score);
+  }
+  else
+  {
+    console.log("You are Wrong \nScore is " +score);
+  }
+}
+
+
 var questions=[
     {que : "\nWhere do I Live?\n1.Bangalore\n2.Tamilnadu\nAns(1or2):",
     ans : "1"},
