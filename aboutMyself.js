@@ -39,5 +39,11 @@ var questions=[
      var curqus=questions[i];
      play(curqus.que,curqus.ans);
    }
+
+   console.log("--------------------------");
+   console.log("Your Final score is : "+score);
+   console.log("Bye Bye "+uname);
+   console.log("---------------------------");
+
    
  
