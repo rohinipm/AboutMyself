@@ -33,4 +33,11 @@ var questions=[
     ans : "1"},
     {que : "\nMy favorite indoor game?\n1.Chess\n2.Carom\nAns(1or2):",
     ans : "2"},];
+
+    for(var i=0;i<questions.length;i++)
+   {
+     var curqus=questions[i];
+     play(curqus.que,curqus.ans);
+   }
+   
  
